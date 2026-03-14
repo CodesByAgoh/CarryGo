@@ -1,5 +1,4 @@
 import React from "react";
-import foodpickup from "../images/foodPickup.jpg";
 import phone from "../images/phone.PNG";
 import avocado from "../images/avocado.png";
 import mango from "../images/mango.png";
