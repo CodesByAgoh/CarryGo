@@ -30,17 +30,17 @@ export default function Hero() {
   ];
 
   // Hero message animation
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFade(false);
-      setTimeout(() => {
-        setCurrentMessage((prev) => (prev + 1) % messages.length);
-        setFade(true);
-      }, 400);
-    }, 6000);
+ useEffect(() => {
+  const interval = setInterval(() => {
+    setFade(false);
+    setTimeout(() => {
+      setCurrentMessage((prev) => (prev + 1) % messages.length);
+      setFade(true);
+    }, 400);
+  }, 6000);
 
-    return () => clearInterval(interval);
-  }, []);
+  return () => clearInterval(interval);
+}, [messages.length]);
 
   // Handle waitlist submission
   const handleSubmit = async (e) => {
