@@ -131,7 +131,7 @@ export default function Hero() {
                 <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                   <input
                     type="text"
-                    placeholder="Your Name"
+                    placeholder="Name(e.g. Osondu)"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     className="border rounded-lg p-3"
@@ -139,7 +139,7 @@ export default function Hero() {
 
                   <input
                     type="tel"
-                    placeholder="Phone Number"
+                    placeholder="Phone Number(e.g. 08012345678)"
                     value={phone}
                     onChange={(e) => {
                       const onlyNumbers = e.target.value.replace(/\D/g, ""); // remove non-digits
