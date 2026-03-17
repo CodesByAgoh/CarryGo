@@ -100,7 +100,7 @@ export default function Hero() {
                   🎉 Congratulations, {submittedName || "Friend"}!
                 </h2>
                 <p className="text-sm mb-6">
-                  You have successfully joined the CarryGo waitlist. 🚀
+                  You have successfully joined the Kwicky waitlist. 🚀
                 </p>
                 <button
                   onClick={() => {
@@ -119,13 +119,13 @@ export default function Hero() {
               // ✅ Waitlist form
               <>
                 <h2 className="text-2xl font-bold mb-2 font-kumbh-sans">
-                  {name ? `Thank you, ${name}` : "Join CarryGo Waitlist"}
+                  {name ? `Thank you, ${name}` : "Join Kwicky Waitlist"}
                 </h2>
 
                 <p className="text-sm mb-6">
                   {name
                     ? "Enter your phone number to join the waitlist"
-                    : "Be the first to try CarryGo 🚀"}
+                    : "Be the first to try Kwicky 🚀"}
                 </p>
 
                 <form onSubmit={handleSubmit} className="flex flex-col gap-4">
@@ -177,16 +177,16 @@ export default function Hero() {
         </span>
 
         <span className="block lg:text-4xl text-xl lg:mt-4 mt-2 font-medium">
-          Order food
+          Order food with
           <span className="pl-2 text-[#60894F] font-lugrasimo-regular">
-            CarryGo
+             Kwicky
           </span>
         </span>
       </h1>
 
       {/* SUBTEXT */}
       <h1 className="lg:text-base text-xs font-light text-black text-center absolute lg:top-[320px] top-[230px] lg:w-[440px] w-[70%] font-kumbh-sans">
-        Order, Park, CarryGo. All in 1 minute.
+        Kwicky. All in 1 minute.
       </h1>
 
       {/* BUTTON */}
