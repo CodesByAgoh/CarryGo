@@ -1,12 +1,5 @@
 // ...existing code...
 import React, { useState } from "react";
-import gift from "../images/gift.png";
-// decorative fruit images (updated to your available assets)
-import grape from "../images/grape.png";
-import mango from "../images/mango.png";
-import pineapple from "../images/pineapple.png";
-import watermelon from "../images/watermelon.png";
-import pizza from "../images/pizza.png";
 import tree from "../images/tree.png";
 
 const faqs = [
